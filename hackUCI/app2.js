@@ -14,5 +14,6 @@ function getInfo() {
     phone = document.getElementById("phone").value;
 
     console.log(name + " " + lastname + " " + dob + " " + pet + " " + email + " " + phone);
-
+    var arr = {name, lastname, dob, pet, email, phone};
+    return arr;
 }
